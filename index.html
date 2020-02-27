@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button class="more">Open modal window</button>
+    <div class="overlay fade">
+        <div class="popup">
+           <div class="popup-close">&times;</div>
+           <div class="popup-title">
+                Feedback form
+            </div>
+            <div class="popup-form">	
+                <form action="#" class="main-form">
+                    <div class="popup-form-header">
+                        Learn more
+                    </div>
+                        <label class="popup-form__label" for="phone">
+                        Input your phone number:
+                        </label>
+                        <input class="popup-form__input" name="phone" type="tel" required placeholder="+0 000 000 00 00">
+                        <button class="button popup-form__btn">
+                            Submit your application!
+                        </button>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
